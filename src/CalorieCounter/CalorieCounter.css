@@ -76,7 +76,7 @@
     outline: none;
     border: none;
     transition: .4s;
-    font-size: .9rem;
+    font-size: 1.1rem;
 }
 
 @media(any-hover: hover){
@@ -87,7 +87,6 @@
 
 .calorie-counter__food-input:focus{
     border-color: #bfaacd;
-    border-width: 1.5px;
 }
 
 .calorie-counter__food-input,
