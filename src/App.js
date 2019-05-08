@@ -1,8 +1,11 @@
 import React from 'react';
+import Card from './CalorieCounter/Card'
 
 function App() {
   return (
-    <h1>hi</h1>
+    <div>
+        <Card/>
+    </div>
   );
 }
 
