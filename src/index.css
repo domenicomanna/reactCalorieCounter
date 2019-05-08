@@ -1,3 +1,49 @@
+:root{
+    --radius: 5px;
+    --light-color: #e0e0e0;
+    --dark-color: #a8a8a8;
+    --dark-color-secondary: #33706d;
+}
+
 body {
-  margin: 0;
+    background: linear-gradient(#5f2c82, #49a09d) fixed;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.button{
+    display: inline-block;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.button--add{
+    padding: .6rem 1rem; 
+    font-size: 3rem;
+    border-radius: 50%;
+    background: var(--dark-color-secondary);
+    color: #fff;
+}
+
+@media(any-hover: hover){
+    .button:hover{
+        opacity: .6;;
+    }
+    
+    .button--add:hover{
+        opacity: 1;
+        background: #5f2c82;
+    }
+    
+}
+
+.container{
+    max-width: 700px;
+    margin: auto;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }

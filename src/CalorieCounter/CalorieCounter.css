@@ -1,0 +1,121 @@
+.calorie-counter{
+    margin: 2rem;
+}
+
+.calorie-counter__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark-color-secondary);
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+    position: relative;
+}
+
+.calorie-counter__title{
+    font-size: 2rem;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+}
+
+.calorie-counter__header-icon{
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.calorie-counter__dummy-icon{
+    visibility: hidden;
+}
+
+.calorie-counter__dummy-icon,
+.calorie-counter__delete{
+    font-size: 1.3rem;
+}
+
+.calorie-counter__header,
+.calorie-counter__label-group,
+.calorie-counter__totals,
+.calorie-counter__inputs,
+.calorie-counter__list-items{
+    padding: 1rem;
+}
+
+.calorie-counter__wrapper{
+    background: #fff;
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+}
+
+.calorie-counter__group{
+    display: flex;
+}
+
+.calorie-counter__group > *:first-child{
+    flex: 2;
+}
+
+.calorie-counter__group > *{
+    flex: 1;
+}
+
+.calorie-counter__group > *:last-child{
+    flex: 0;
+}
+
+.calorie-counter__label-group{
+    border-bottom: 1px solid var(--light-color);
+}
+
+.calorie-counter__label{
+    font-weight: bold;
+}
+
+.calorie-counter__food-input{
+    outline: none;
+    border: none;
+    transition: .4s;
+    font-size: .9rem;
+}
+
+@media(any-hover: hover){
+    .calorie-counter__food-input:hover{
+        border-color: #24504e;
+    }
+}
+
+.calorie-counter__food-input:focus{
+    border-color: #bfaacd;
+    border-width: 1.5px;
+}
+
+.calorie-counter__food-input,
+.calorie-counter__food-detail{
+    display: inline-block;
+    border-bottom: 1px solid var(--dark-color);
+    width: 90%;
+}
+
+.calorie-counter__food-item{
+    margin-bottom: 1rem;
+}
+
+.calorie-counter__totals,
+.calorie-counter__label-group{
+    color: #555;
+}
+
+.calorie-counter__totals{
+    border-top: 1px solid var(--light-color);
+    border-bottom: 1px solid var(--light-color);
+}
+
+.calorie-counter__inputs{
+    position: relative;
+}
+
+.calorie-counter__add{
+    position: absolute;
+    right: -40px;
+}
