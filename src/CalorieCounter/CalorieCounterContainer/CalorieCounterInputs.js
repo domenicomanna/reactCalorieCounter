@@ -1,6 +1,6 @@
 import React from 'react';
-import '../index.css';
-import './CalorieCounter.css';
+import '../../index.css';
+import '../CalorieCounter.css';
 
 export default function FoodInput() {
     return (
@@ -11,7 +11,7 @@ export default function FoodInput() {
             <li className="calorie-counter__add button button--add">
                 <i className="fas fa-plus"></i>
             </li>
-            <li className="calorie-counter__label"><i className="fas fa-times calorie-counter__dummy-icon"></i></li>
+            <li className="calorie-counter__label"><i className="fas fa-times calorie-counter__dummy-icon"></i> </li>
         </ul>
     )
 }
