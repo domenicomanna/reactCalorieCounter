@@ -1,10 +1,10 @@
 import React from 'react';
-import Card from './CalorieCounter/Card'
+import CalorieCounterCard from './CalorieCounter/CalorieCounterCard'
 
 function App() {
   return (
     <div>
-        <Card/>
+        <CalorieCounterCard/>
     </div>
   );
 }

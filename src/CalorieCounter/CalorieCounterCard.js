@@ -7,7 +7,7 @@ import FoodList from './FoodList';
 import FoodTotals from './FoodTotals';
 import FoodInput from './FoodInput';
 
-export default function Card() {
+export default function CalorieCounterCard() {
     return (
         <div className="calorie-counter">
             <div className="container">
