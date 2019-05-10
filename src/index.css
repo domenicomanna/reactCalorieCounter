@@ -14,7 +14,7 @@ body {
 .button{
     display: inline-block;
     cursor: pointer;
-    transition: .4s;
+    transition: .3s;
 }
 
 .button--add{
@@ -27,7 +27,7 @@ body {
 
 @media(any-hover: hover){
     .button:hover{
-        opacity: .6;;
+        opacity: .4;;
     }
     
     .button--add:hover{
