@@ -3,7 +3,7 @@ import '../index.css';
 import './CalorieCounter.css';
 import Header from './Header';
 import ColumnHeaders from './ColumnHeaders';
-import FoodList from './FoodList';
+import CalorieCounterContainer from './CalorieCounterContainer/CalorieCounterContainer';
 import FoodTotals from './FoodTotals';
 import FoodInput from './FoodInput';
 
@@ -14,7 +14,7 @@ export default function CalorieCounterCard() {
                 <Header />
                 <div className="calorie-counter__wrapper">
                     <ColumnHeaders />
-                    <FoodList />
+                    <CalorieCounterContainer/>
                     <FoodTotals />
                     <FoodInput />
                 </div>

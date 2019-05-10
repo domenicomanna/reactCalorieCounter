@@ -1,6 +1,6 @@
 import React from 'react';
-import '../index.css'
-import './CalorieCounter.css'
+import '../../index.css'
+import '../CalorieCounter.css'
 
 export default function FoodItem() {
     return (
