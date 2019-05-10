@@ -21,7 +21,7 @@ export default class CalorieCounterContainer extends Component {
         return (
             <div>
                 <CalorieCounterFoodList foods = {this.state.foodItems} />
-                <CalorieCounterTotals />
+                <CalorieCounterTotals foodTotals = {this.state.foodTotals} />
                 <CalorieCounterInputs />
             </div>
         );
