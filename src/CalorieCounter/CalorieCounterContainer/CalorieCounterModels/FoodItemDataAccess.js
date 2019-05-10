@@ -1,5 +1,9 @@
 export default function FoodItemDataAccess(){
-    this.foodItems = [];
+    this.foodItems = [
+        {id: 1, description: 'ham', calories: '100', fat: '1002' },
+        {id: 2, description: 'ham', calories: '100', fat: '1002' },
+        {id: 3, description: 'ham', calories: '100', fat: '1002' }
+    ];
 }
 
 FoodItemDataAccess.prototype.addFoodItem = function(FoodItem){
