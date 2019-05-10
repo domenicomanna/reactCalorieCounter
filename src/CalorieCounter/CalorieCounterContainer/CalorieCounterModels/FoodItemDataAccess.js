@@ -1,11 +1,7 @@
 import FoodItemModel from './FoodItemModel.js';
 
 export default function FoodItemDataAccess(){
-    this.foodItems = [
-        {id: 1, description: 'ham', calories: '100', fat: '1002' },
-        {id: 2, description: 'ham', calories: '100', fat: '1002' },
-        {id: 3, description: 'ham', calories: '100', fat: '1002' }
-    ];
+    this.foodItems = [];
 }
 
 FoodItemDataAccess.prototype.addFoodItem = function(FoodItem){

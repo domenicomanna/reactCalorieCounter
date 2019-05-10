@@ -120,3 +120,33 @@
     position: absolute;
     right: -40px;
 }
+
+
+@media(max-width: 768px){
+    body{
+        font-size: .8rem;
+    }
+    
+    .calorie-counter__title{
+        font-size: 1.4rem;
+    }
+    
+    .calorie-counter__food-input{
+        font-size: .65rem;
+    }
+    
+    .button--add{
+        padding: .45rem .8rem; 
+        font-size: 2rem;
+    }
+    
+    .calorie-counter__add{
+        position: absolute;
+        right: -25px;
+    }
+    
+    .calorie-counter__dummy-icon,
+    .calorie-counter__delete{
+        font-size: .7rem;
+    }
+}
