@@ -12,6 +12,10 @@ FoodItemDataAccess.prototype.addFoodItem = function(FoodItem){
     this.foodItems.push(FoodItem);
 }
 
+FoodItemDataAccess.prototype.removeFoodItem = function(index){
+    this.foodItems.splice(index, 1);
+}
+
 // Returns a deepy copy of the all the food items
 FoodItemDataAccess.prototype.getFoodItems = function(){
     let deepCopy = this.foodItems.map(food =>{

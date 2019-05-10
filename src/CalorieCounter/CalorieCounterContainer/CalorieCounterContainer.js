@@ -37,6 +37,7 @@ export default class CalorieCounterContainer extends Component {
 
             this.setState({
                 foodItems: this.foodItemsDataAccess.getFoodItems(),
+                foodTotals: this.foodItemsDataAccess.getFoodTotals(),
                 currentFoodItem: {
                     description: '',
                     calories: '',
@@ -58,10 +59,18 @@ export default class CalorieCounterContainer extends Component {
         this.foodItemsDataAccess.addFoodItem(newFoodItem);
     }
 
+    handleFoodDeletion = index => {
+        this.foodItemsDataAccess.removeFoodItem(index);
+        this.setState({
+            foodItems: this.foodItemsDataAccess.getFoodItems(),
+            foodTotals: this.foodItemsDataAccess.getFoodTotals()
+        })
+    }
+
     render() {
         return (
             <div>
-                <CalorieCounterFoodList foodItems={this.state.foodItems} />
+                <CalorieCounterFoodList foodItems={this.state.foodItems} handleFoodDeletion = {this.handleFoodDeletion} />
                 <CalorieCounterTotals foodTotals={this.state.foodTotals} />
                 <CalorieCounterInputs description={this.state.currentFoodItem.description}
                     calories={this.state.currentFoodItem.calories} fat={this.state.currentFoodItem.fat}
