@@ -90,6 +90,10 @@
     border-color: #bfaacd;
 }
 
+.calorie-counter__list-items{
+    border-bottom: 1px solid var(--light-color);
+}
+
 .calorie-counter__food-input,
 .calorie-counter__food-detail{
     display: inline-block;
@@ -107,8 +111,8 @@
 }
 
 .calorie-counter__totals{
-    border-top: 1px solid var(--light-color);
     border-bottom: 1px solid var(--light-color);
+    padding-bottom: 1.2rem;
 }
 
 .calorie-counter__inputs{
