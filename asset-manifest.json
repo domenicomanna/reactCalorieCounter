@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactCalorieCounter/static/css/main.fffdbaa4.chunk.css",
+    "main.js": "/reactCalorieCounter/static/js/main.bfe02253.chunk.js",
+    "main.js.map": "/reactCalorieCounter/static/js/main.bfe02253.chunk.js.map",
+    "runtime~main.js": "/reactCalorieCounter/static/js/runtime~main.85ebe8c8.js",
+    "runtime~main.js.map": "/reactCalorieCounter/static/js/runtime~main.85ebe8c8.js.map",
+    "static/js/2.d9a5798b.chunk.js": "/reactCalorieCounter/static/js/2.d9a5798b.chunk.js",
+    "static/js/2.d9a5798b.chunk.js.map": "/reactCalorieCounter/static/js/2.d9a5798b.chunk.js.map",
+    "index.html": "/reactCalorieCounter/index.html",
+    "precache-manifest.017a9593476ede7619ec8e4ecda73ed5.js": "/reactCalorieCounter/precache-manifest.017a9593476ede7619ec8e4ecda73ed5.js",
+    "service-worker.js": "/reactCalorieCounter/service-worker.js",
+    "static/css/main.fffdbaa4.chunk.css.map": "/reactCalorieCounter/static/css/main.fffdbaa4.chunk.css.map"
+  }
+}
