@@ -66,6 +66,7 @@
 
 .calorie-counter__label-group{
     border-bottom: 1px solid var(--light-color);
+    margin-bottom: 1rem;
 }
 
 .calorie-counter__label{

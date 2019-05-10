@@ -4,7 +4,7 @@ import '../CalorieCounter.css';
 import CalorieCounterFoodItem from './CalorieCounterFoodItem';
 
 export default function CalorieCounterFoodList(props) {
-    let foods = props.foods.map(food => {
+    let foods = props.foodItems.map(food => {
         return <CalorieCounterFoodItem key={food.id}
             description={food.description}
             calories={food.calories}
