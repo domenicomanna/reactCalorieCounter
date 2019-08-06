@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1a7f5329eb4023b8f0d538c31180158",
+    "revision": "c6632ea246ce6b12c4c339d182fbd439",
     "url": "/reactCalorieCounter/index.html"
   },
   {
-    "revision": "763ace8d43b4be21f25a",
+    "revision": "dbdff6d55081cb6cbf73",
     "url": "/reactCalorieCounter/static/css/main.fffdbaa4.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactCalorieCounter/static/js/2.d9a5798b.chunk.js"
   },
   {
-    "revision": "763ace8d43b4be21f25a",
-    "url": "/reactCalorieCounter/static/js/main.bfe02253.chunk.js"
+    "revision": "dbdff6d55081cb6cbf73",
+    "url": "/reactCalorieCounter/static/js/main.e88e9d77.chunk.js"
   },
   {
     "revision": "db307c4f4ae25c86f3ce",
