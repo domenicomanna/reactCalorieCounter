@@ -7,7 +7,7 @@ export default function CalorieCounterColumnHeaders(){
         <ul className="list calorie-counter__group calorie-counter__label-group">
             <li className="calorie-counter__label">Description</li>
             <li className="calorie-counter__label">Calories</li>
-            <li className="calorie-counter__label">Fat</li>
+            <li className="calorie-counter__label">Fat (g)</li>
             <li className="calorie-counter__label"><i className="fas fa-times calorie-counter__dummy-icon"></i></li>
         </ul>
     )
